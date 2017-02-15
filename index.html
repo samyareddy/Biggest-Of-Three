@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <title>Biggest Number</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.js"></script>
+    <script src = "js/app.js"></script>
+     </head>
+
+ <body ng-app="biggestApp">
+  <div>  
+    <div ng-controller="biggestController">  
+
+   Enter any three numbers:  
+        <input type="number" ng-model="a" />  <br/> <br/>
+         <input type="number" ng-model="b" />  <br/><br/>
+          <input type="number" ng-model="c" />  <br/><br/>
+            <input type="number" ng-model="d" />  <br/><br/>
+      <button ng-click="submit()">Result</button>
+
+       <div> {{ Result }}</div>
+        </div>
+         </div>
+          </body>
+            </html>
